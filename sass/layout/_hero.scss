@@ -14,7 +14,7 @@
     padding-top: 200px;
 }
 
-.title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -27,7 +27,7 @@
     margin-left: auto;
 }
 
-.hero-bth {
+.hero__bth {
     position: relative;
     color: var(--primary-text-color);
     background-color: var(--accent-color);
@@ -43,9 +43,10 @@
     height: 50px;
     border-radius: 4px;
     transition: background-color var(--o-transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color);
+        }
 }
 
-.hero-bth:hover,
-.hero-bth:focus {
-    background-color: var(--button-color);
-}

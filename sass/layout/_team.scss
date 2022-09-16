@@ -9,7 +9,7 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-item {
+.team-list__item {
     background-color: var(--secondary-color);
     flex-basis: calc((100% - 90px) / 4);
 }
@@ -42,13 +42,13 @@
     margin-bottom: 16px;
 }
 
-.list {
+.account-list {
     display: flex;
     justify-content: center;
     column-gap: 10px;
 }
 
-.team-link {
+.account-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,20 +57,22 @@
     border-radius: 50%;
     transition: background-color var(--o-transition-dur-and-funk),
         color var(--o-transition-dur-and-funk);
+
+    &:hover,
+    &:focus {
+     background-color: var(--accent-color);
+     color: var(--secondary-color);
+            }
+    
 }
 
-.team-link:hover,
-.team-link:focus {
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-}
 
-.team-link:hover .team-ikon,
-.team-link:focus .team-ikon {
-    fill: var(--secondary-color);
-}
-
-.team-ikon {
+.account-list__ikon {
     fill: #afb1b8;
     transition: fill var(--o-transition-dur-and-funk);
+
+.account-list__link:hover &,
+ .account-list__link:focus & {
+fill: var(--secondary-color);
+            }
 }

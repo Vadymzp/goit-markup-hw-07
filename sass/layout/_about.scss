@@ -7,7 +7,7 @@
     column-gap: 30px;
 }
 
-.about-item::before {
+.about-list__item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -24,18 +24,7 @@
     width: 100%;
 }
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
+
 
 .about-title {
     font-size: 14px;
@@ -49,7 +38,7 @@
     background-color: #188ce8;
 }
 
-.about-text {
+.about-title__text {
     line-height: 1.71;
     color: var(--text-color);
 }

@@ -1,14 +1,11 @@
-.footer-contacts:hover,
-.footer-contacts:focus {
-    color: var(--accent-color);
-}
+
 
 .footer-adress {
     font-style: normal;
     margin-top: 20px;
 }
 
-.footer-location {
+.footer-list__location {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -17,7 +14,7 @@
     text-decoration: none;
 }
 
-.footer-contacts {
+.footer-list__contacts {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -25,17 +22,17 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     transition: color var(--o-transition-dur-and-funk);
-}
 
-.location-item {
-    margin-bottom: 9px;
-}
-
-.contacts-item {
-    margin-bottom: 9px;
-}
-
-.footer-contacts:hover,
-.footer-contacts:focus {
+ &:hover,
+ &:focus {
     color: var(--accent-color);
+        }
+}
+
+.footer-list__item {
+    margin-bottom: 9px;
+}
+
+.footer-list__item {
+    margin-bottom: 9px;
 }
