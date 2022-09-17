@@ -2,10 +2,10 @@
   display: flex;
   margin-left: auto;
 }
-.footer-form {
+.footer-form-sign-up {
   margin-left: auto;
 }
-.subcription-email {
+.footer-form-sign-up__email {
   display: inline-flex;
   background-color: #2f303a;
   padding-left: 12px;
@@ -28,7 +28,7 @@
 .subcription-email::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-.btn-email {
+.footer-form-sign-up__btn-email {
   display: inline-flex;
   width: 200px;
   margin-left: auto;
@@ -50,8 +50,15 @@
 &:hover {
   background-color: var(--button-color);
     }
-}
-.icon-send {
+}footer-form-sign-up__iconicon-send {
   margin-left: 10px;
 }
 
+.footer-form-sign-up__text {
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}

@@ -7,7 +7,7 @@
     padding-top: 0;
 }
 
-.work-list__section-item {
+.work-list__item {
     flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -18,11 +18,11 @@
     margin-bottom: 50px;
 }
 
-.position-container {
+.work-list__container {
     position: relative;
 }
 
-.container-work {
+.work-list__container-text {
     width: 100%;
     font-weight: 700;
     position: absolute;

@@ -2,7 +2,7 @@
     background-color: var(--team-color);
 }
 
-.team-container {
+.team-list__container {
     padding: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -19,14 +19,14 @@
     column-gap: 30px;
 }
 
-.team-title {
+.section-team__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
 }
 
-.person-title {
+.team-list__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.position-text {
+.team-list__text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -67,7 +67,7 @@
 }
 
 
-.account-list__ikon {
+.account-list__icon {
     fill: #afb1b8;
     transition: fill var(--o-transition-dur-and-funk);
 

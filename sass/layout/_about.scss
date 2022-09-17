@@ -11,7 +11,7 @@
     flex-basis: calc((100% - 90px) / 4);
 }
 
-.icon-container {
+.about-list__container {
     background-color: var(--team-color);
     width: 270px;
     height: 120px;
@@ -20,13 +20,13 @@
     align-items: center;
 }
 
-.icon-antenna {
+.about-list__icon {
     width: 100%;
 }
 
 
 
-.about-title {
+.about-list__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -38,7 +38,7 @@
     background-color: #188ce8;
 }
 
-.about-title__text {
+.about-list__text {
     line-height: 1.71;
     color: var(--text-color);
 }

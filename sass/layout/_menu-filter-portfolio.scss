@@ -1,4 +1,4 @@
-.filter-btn {
+.menu-filter__btn {
     padding: 6px 22px;
     font-family: inherit;
     background-color: #f5f4fa;
@@ -23,7 +23,7 @@
             }
 }
 
-.current-btn {
+.menu-filter__current-btn {
     background-color: var(--accent-color);
     color: var(--secondary-color);
 }

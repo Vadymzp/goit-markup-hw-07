@@ -2,13 +2,13 @@
     display: flex;
 }
 
-.footer-list-ikon {
+.footer-join-list {
     display: flex;
     justify-content: center;
     column-gap: 10px;
 }
 
-.footer-link {
+.footer-join-list__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +26,16 @@
             }
 }
 
+.container-join__text {
+    text-align: center;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
 
-
-.footer-icon {
+.footer-join-list__icon {
     display: flex;
     fill: var(--secondary-color);
 }
@@ -40,17 +47,4 @@
     color: var(--secondary-color);
     margin-bottom: 20px;
     font-weight: 700;
-}
-
-.icon-close {
-    padding: 0;
-}
-
-.text-send {
-    color: var(--secondary-color);
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.33;
-    text-transform: uppercase;
 }
