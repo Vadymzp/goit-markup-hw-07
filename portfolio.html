@@ -17,11 +17,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Хедер -->
+
     <header class="main-header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -30,30 +30,30 @@
             ><span class="accent">Studio</span>
           </div>
 
-          <ul class="menu-nav">
-            <li class="menu-nav__item">
-              <a href="./index.html" class="menu-nav__link">Студія</a>
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="./index.html" class="header-nav__link">Студія</a>
             </li>
-            <li class="nav-item">
+            <li class="header-nav__item">
               <a
                 href="./portfolio.html"
-                class="menu-nav__link menu_link_current"
+                class="header-nav__link header-nav_link_current"
                 >Портфоліо</a
               >
             </li>
-            <li class="nav-item">
-              <a href="" class="menu-nav__link">Контакти</a>
+            <li class="header-nav__item">
+              <a href="" class="header-nav__link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="menu-list">
-          <li class="menu-list__itemcontacts">
-            <a href="malito:info@devstudio.com" class="menu-list__linkcontacts">
+        <ul class="contacts-list">
+          <li class="contacts-list__item">
+            <a href="malito:info@devstudio.com" class="contacts-list__link">
               <svg
                 aria-label="іконка імейла"
-                width="16px"
-                height="12px"
-                class="header-icon"
+                width="16"
+                height="12"
+                class="contacts-list__icon"
               >
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -61,13 +61,13 @@
             </a>
           </li>
 
-          <li class="menu-list__itemcontacts">
-            <a href="tel:+380961111111" class="menu-list__linkcontacts">
+          <li class="menu-list__item">
+            <a href="tel:+380961111111" class="contacts-list__link">
               <svg
                 aria-label="іконка телефону"
-                width="10px"
-                height="16px"
-                class="header-icon"
+                width="10"
+                height="16"
+                class="contacts-list__icon"
               >
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -340,8 +340,8 @@
               <a href="" class="footer-join-list__link">
                 <svg
                   aria-label="іконка інстаграму"
-                  width="20px"
-                  height="20px"
+                  width="20"
+                  height="20"
                   class="footer-join-list__icon"
                 >
                   <use href="./images/icons.svg#icon-instagram"></use>
@@ -352,8 +352,8 @@
               <a href="" class="footer-join-list__link current-link">
                 <svg
                   aria-label="іконка твитера"
-                  width="20px"
-                  height="20px"
+                  width="20"
+                  height="20"
                   class="footer-join-list__icon"
                 >
                   <use href="./images/icons.svg#icon-twitter"></use>
@@ -364,8 +364,8 @@
               <a href="" class="footer-join-list__link">
                 <svg
                   aria-label="іконки фейсбуку"
-                  width="20px"
-                  height="20px"
+                  width="20"
+                  height="20"
                   class="footer-join-list__icon"
                 >
                   <use href="./images/icons.svg#icon-facebook"></use>
@@ -376,8 +376,8 @@
               <a href="" class="footer-join-list__link">
                 <svg
                   aria-label="іконка лінкедіна"
-                  width="20px"
-                  height="20px"
+                  width="20"
+                  height="20"
                   class="footer-join-list__icon"
                 >
                   <use href="./images/icons.svg#icon-linkedin"></use>
@@ -403,7 +403,6 @@
           </button>
         </form>
       </div>
-    </footer>
     </footer>
     <script src="./js/modal.js"></script>
   </body>

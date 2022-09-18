@@ -332,7 +332,7 @@ img {
   align-items: center;
 }
 
-.header-nav .menu-nav__link {
+.header-nav .header-nav__link {
   padding-bottom: 32px;
   position: relative;
   color: var(--secondary-text-color);
@@ -342,14 +342,14 @@ img {
   text-decoration: none;
   transition: color var(--o-transition-dur-and-funk);
 }
-.header-nav .menu-nav__link:hover, .header-nav .menu-nav__link:focus {
+.header-nav .header-nav__link:hover, .header-nav .header-nav__link:focus {
   color: var(--accent-color);
 }
 
-.header-nav .menu-nav__link.menu_link_current {
+.header-nav .header-nav__link.header-nav_link_current {
   color: var(--accent-color);
 }
-.header-nav .menu-nav__link.menu_link_current::after {
+.header-nav .header-nav__link.header-nav_link_current::after {
   position: absolute;
   content: "";
   left: 0;
@@ -361,22 +361,22 @@ img {
   border-radius: 2px;
 }
 
-.menu-nav {
+.header-nav__list {
   display: flex;
   column-gap: 51px;
 }
 
-.nav-item {
+.header-nav__item {
   flex-basis: calc((100% - 100px) / 3);
 }
 
-.menu-list {
+.contacts-list {
   display: flex;
   column-gap: 50px;
 }
 
 /* contacts */
-.menu-list__linkcontacts {
+.contacts-list__link {
   color: var(--link-color);
   font-weight: 500;
   line-height: 1.14;
@@ -386,11 +386,11 @@ img {
   align-items: center;
   transition: color var(--o-transition-dur-and-funk);
 }
-.menu-list__linkcontacts:hover, .menu-list__linkcontacts:focus {
+.contacts-list__link:hover, .contacts-list__link:focus {
   color: var(--accent-color);
 }
 
-.header-icon {
+.contacts-list__icon {
   fill: currentColor;
   margin-right: 10px;
 }
